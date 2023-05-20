@@ -271,21 +271,6 @@ body {
   background-position: center;
 }
 
-.icon-antena::before {
-  background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url("../images/clock.svg");
-}
-
-.icon-diagram::before {
-  background-image: url("../images/diagram.svg");
-}
-
-.icon-astronaut::before {
-  background-image: url("../images/astronaut.svg");
-}
 
 .adventage-item {
   flex-basis: calc((100% - 3 * 24px) / 4);

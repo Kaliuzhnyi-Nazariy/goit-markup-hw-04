@@ -271,7 +271,6 @@ body {
   background-position: center;
 }
 
-
 .adventage-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -384,6 +383,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 32px;
+}
+
+.card .socmed {
+  justify-content: center;
 }
 
 /* portfolio */

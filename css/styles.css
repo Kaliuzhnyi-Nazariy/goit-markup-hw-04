@@ -365,7 +365,9 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
 
 .team .card:not(:last-child) {
   margin-right: 24px;
@@ -389,7 +391,7 @@ body {
 
 .card .socmed {
   justify-content: center;
-}
+}  
 
 /* portfolio */
 
@@ -522,13 +524,13 @@ body {
 .socmed-cont {
   display: flex;
   padding: 0;
-  display: block;
   content: "";
   background-color: var(--primty-brand);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
   width: 40px;
   height: 40px;

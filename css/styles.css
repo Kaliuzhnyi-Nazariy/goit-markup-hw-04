@@ -417,7 +417,8 @@ body {
   color: #8e8f99;
 }
 
-.cust-link:hover, .cust-link:focus {
+.cust-link:hover,
+.cust-link:focus {
   border-color: var(--CTA);
   color: var(--CTA);
 }
@@ -547,6 +548,10 @@ body {
   margin-bottom: 16px;
 }
 
+.foot-h {
+  margin-bottom: 16px;
+}
+
 .foot-cont {
   display: flex;
   align-items: baseline;
@@ -558,6 +563,7 @@ body {
 
 .foot-text {
   max-width: 264px;
+  font-weight: 400;
 }
 
 .socmed {
@@ -590,4 +596,3 @@ body {
 .socmed-cont:not(:last-child) {
   margin: 0;
 }
-  

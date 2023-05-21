@@ -519,32 +519,28 @@ body {
   max-width: 264px;
 }
 
-.socmed {
+.socmed-cont {
   display: flex;
   padding: 0;
-}
-
-.socmed-item::before {
   display: block;
   content: "";
   background-color: var(--primty-brand);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
+  justify-content: center;
   border-radius: 50%;
   width: 40px;
   height: 40px;
 }
 
-.socmed-item:focus::before,
-.socmed-item:hover::before {
+.socmed-cont:hover,
+.socmed-cont:focus {
   content: "";
   background-color: var(--green);
 }
 
-.socmed-item:not(:last-child)::before {
+.socmed-cont:not(:last-child) {
   margin-right: 16px;
 }
 
-.socmed-icon::before {
-}

@@ -546,6 +546,13 @@ body {
   margin-bottom: 16px;
 }
 
+.foot-cont {
+  display: flex;
+  align-items: baseline;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .logo-footer .web {
   color: var(--footer-text-color);
 }
@@ -582,3 +589,4 @@ body {
 .socmed-cont:not(:last-child) {
   margin-right: 16px;
 }
+

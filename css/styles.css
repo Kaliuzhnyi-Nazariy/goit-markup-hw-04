@@ -399,7 +399,11 @@ body {
 .custom {
   display: flex;
   gap: 24px;
+}
+
+.cust {
   width: calc((100% - 120px) / 6); 
+  height: 88px;
 }
 
 /* portfolio */

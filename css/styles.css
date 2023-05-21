@@ -605,15 +605,18 @@ body {
   gap: 16px;
 }
 
-.socmed-l {
-  width: 40px;
-  height: 40px;
-}
-
 .socmed-link {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--primty-brand);
+  border-radius: 50%;
+}
+
+.socmed-link:hover,
+.socmed-link:focus {
+  content: "";
+  background-color: var(--green);
 }

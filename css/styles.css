@@ -389,7 +389,7 @@ body {
 
 .card .socmed {
   justify-content: center;
-}  
+}
 
 .cust-section {
   padding-top: 120px;
@@ -402,8 +402,19 @@ body {
 }
 
 .cust {
-  width: calc((100% - 120px) / 6); 
+  width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.cust-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
 }
 
 /* portfolio */
@@ -534,6 +545,10 @@ body {
   max-width: 264px;
 }
 
+.socmed {
+  display: flex;
+}
+
 .socmed-cont {
   display: flex;
   padding: 0;
@@ -558,4 +573,3 @@ body {
 .socmed-cont:not(:last-child) {
   margin-right: 16px;
 }
-

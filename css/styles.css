@@ -620,3 +620,7 @@ body {
   content: "";
   background-color: var(--green);
 }
+
+.socmed-icaon {
+  fill: #f4f4fd;
+}

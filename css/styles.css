@@ -205,7 +205,11 @@ body {
 
 /* hero */
 
-.overlay {
+.hero {
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
   display: block;
   max-width: 1440px;
   min-height: 600px;
@@ -219,12 +223,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.hero {
-  text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero-title {

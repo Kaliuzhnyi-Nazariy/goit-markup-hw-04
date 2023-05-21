@@ -417,6 +417,11 @@ body {
   color: #8e8f99;
 }
 
+.cust-link:hover, .cust-link:focus {
+  border-color: var(--CTA);
+  color: var(--CTA);
+}
+
 /* portfolio */
 
 .hide-title {

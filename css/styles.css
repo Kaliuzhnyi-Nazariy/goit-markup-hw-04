@@ -422,6 +422,10 @@ body {
   color: var(--CTA);
 }
 
+.cust-svg {
+  fill: currentColor;
+}
+
 /* portfolio */
 
 .hide-title {

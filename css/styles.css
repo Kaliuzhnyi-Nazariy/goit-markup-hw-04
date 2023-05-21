@@ -550,6 +550,7 @@ body {
 
 .foot-h {
   margin-bottom: 16px;
+  color: var(--primary-white);
 }
 
 .foot-cont {

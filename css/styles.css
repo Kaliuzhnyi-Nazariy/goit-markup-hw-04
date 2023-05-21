@@ -328,7 +328,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   color: var(--title-text-color);
   text-align: center;
   letter-spacing: 0.02em;
@@ -390,6 +390,17 @@ body {
 .card .socmed {
   justify-content: center;
 }  
+
+.cust-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.custom {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 120px) / 6); 
+}
 
 /* portfolio */
 

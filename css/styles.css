@@ -185,7 +185,6 @@ body {
   color: var(--primty-brand);
   background-color: var(--team-bg);
   border: 1px solid var(--port-but);
-  display: block;
 }
 
 .port:hover,
@@ -513,6 +512,7 @@ body {
 .examples .link {
   list-style: none;
   text-decoration: none;
+  display: block;
 }
 
 .examples .text {

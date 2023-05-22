@@ -185,6 +185,7 @@ body {
   color: var(--primty-brand);
   background-color: var(--team-bg);
   border: 1px solid var(--port-but);
+  display: block;
 }
 
 .port:hover,
@@ -462,15 +463,13 @@ body {
 .examples {
   list-style: none;
   padding-top: 120px;
-  display: block;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .examples > .examples-item {
   width: calc((100% - 48px) / 3);
-  /* padding: 32px 16px; */
-  /* border: 1px solid var(--port-but); */
   border-top: none;
   margin-right: 24px;
   margin-bottom: 48px;

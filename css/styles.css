@@ -341,7 +341,7 @@ body {
 
 /* team */
 
-.team-carrds {
+.tim {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -397,6 +397,8 @@ body {
 .card .socmed {
   justify-content: center;
 }
+
+/* Custoners */
 
 .cust-section {
   padding-top: 120px;

@@ -341,6 +341,11 @@ body {
 
 /* team */
 
+.team-carrds {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team {
   background-color: var(--team-bg);
   padding-top: 120px;

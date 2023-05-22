@@ -391,7 +391,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .card .socmed {

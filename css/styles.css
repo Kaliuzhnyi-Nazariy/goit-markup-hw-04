@@ -585,6 +585,7 @@ body {
 .socmed {
   display: flex;
   padding: 0;
+  gap: 24px;
 }
 
 .socmed-cont {

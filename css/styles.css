@@ -614,6 +614,32 @@ body {
   margin: 0;
 }
 
+.socmed-cont-sec {
+  display: flex;
+  padding: 0;
+  content: "";
+  background-color: var(--primty-brand);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  /* margin-right: 16px; */
+}
+
+.socmed-cont-sec:hover,
+.socmed-cont-sec:focus {
+  content: "";
+  background-color: var(--CTA);
+}
+
+.socmed-cont-sec:last-child {
+  margin: 0;
+}
+
 .socmed-item {
   display: flex;
   padding: 0;

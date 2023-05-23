@@ -609,7 +609,7 @@ body {
   background-color: var(--green);
 }
 
-.socmed-cont:not(:last-child) {
+.socmed-cont:last-child {
   margin: 0;
 }
 
@@ -635,6 +635,6 @@ body {
   background-color: var(--green);
 }
 
-.socmed-icaon {
+.socmed-icon {
   fill: #f4f4fd;
 }

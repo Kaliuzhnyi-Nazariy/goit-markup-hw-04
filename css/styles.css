@@ -610,24 +610,18 @@ body {
   background-color: var(--green);
 }
 
-.socmed-cont-sec {
+.socmed-link-sec {
+  width: 100%;
+  height: 100%;
   display: flex;
-  padding: 0;
-  content: "";
-  background-color: var(--primty-brand);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background-color: var(--primty-brand);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  /* margin-right: 16px; */
 }
 
-.socmed-cont-sec:hover,
-.socmed-cont-sec:focus {
+.socmed-link-sec:hover,
+.socmed-link-sec:focus {
   content: "";
   background-color: var(--CTA);
 }

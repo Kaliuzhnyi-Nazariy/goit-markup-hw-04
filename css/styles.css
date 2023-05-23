@@ -610,10 +610,6 @@ body {
   background-color: var(--green);
 }
 
-.socmed-cont:last-child {
-  margin: 0;
-}
-
 .socmed-cont-sec {
   display: flex;
   padding: 0;
@@ -636,9 +632,6 @@ body {
   background-color: var(--CTA);
 }
 
-.socmed-cont-sec:last-child {
-  margin: 0;
-}
 
 .socmed-item {
   display: flex;

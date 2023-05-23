@@ -436,6 +436,10 @@ body {
   fill: currentColor;
 }
 
+.customer {
+  line-height: 1.11
+}
+
 /* portfolio */
 
 .hide-title {

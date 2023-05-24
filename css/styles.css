@@ -221,10 +221,10 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/symbol-defs.svg#icon-peoples-office);
+    url(../images/bgim.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
 }
 
 .hero-title {

@@ -81,8 +81,6 @@ body {
 
 .pg-hd {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
   align-items: center;
 }
 
@@ -138,6 +136,7 @@ body {
 .address {
   list-style: none;
   font-style: normal;
+  margin-left: auto;
 }
 
 .address .link:hover,
